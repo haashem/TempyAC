@@ -1,0 +1,28 @@
+PODS:
+  - MKBeaconXProSDK (0.1.1)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - MKBeaconXProSDK
+  - PromiseKit (~> 6.8)
+
+SPEC REPOS:
+  trunk:
+    - MKBeaconXProSDK
+    - PromiseKit
+
+SPEC CHECKSUMS:
+  MKBeaconXProSDK: ebebe517c1793725054bbcade04ee5699d760785
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+
+PODFILE CHECKSUM: c03ecab2d893d88b10272a62bd1e39223afb54f3
+
+COCOAPODS: 1.9.3

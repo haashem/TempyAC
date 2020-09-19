@@ -1,0 +1,12 @@
+platform :ios, '12.0'
+#ignore all warnings from all pods
+inhibit_all_warnings!
+
+# if using swift with objective c we must use frameworks
+use_frameworks!
+
+target 'TempyDevice' do
+
+pod 'MKBeaconXProSDK'
+pod 'PromiseKit', '~> 6.8'
+end
